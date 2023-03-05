@@ -23,8 +23,8 @@ var x = setInterval(function () {
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
     // Hiển thị bộ đếm trong đối tượng div
-    // countdown.innerHTML = days + " ngày " + hours + " giờ " + minutes + " phút " + seconds + " giây ";
     countdown.innerHTML = `
     <div class="row">
         <div class="col-md-3 col-3 text-center form-text">
