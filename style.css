@@ -355,7 +355,7 @@ h3 {
 }
 
 .hide {
-  opacity: 0;
+  display: none;
   visibility: hidden;
 }
 .like {
@@ -935,4 +935,44 @@ footer h2 {
   width: 25px;
   position: relative;
   top: -1px;
+}
+.info-item {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 991px) {
+  .alert {
+    width: 100%;
+    left: 0;
+  }
+  h2.banner-h2 {
+    margin-left: 0;
+  }
+  .banner {
+    margin-top: 20px;
+}
+.effect-img-right {
+  padding-left: calc(var(--bs-gutter-x) * .5);
+}
+.effect-img-left {
+  padding-right: calc(var(--bs-gutter-x) * .5);
+}
+.register-form {
+  padding: 0 10px;
+}
+.cachdung-item-right {
+  border-left: 0 solid #fff;
+  padding-left: 0;
+  margin-top: 20px;
+}
+.info-item {
+  display: block;
+}
+.fix_zalo {
+  position: fixed;
+  bottom: 130px;
+  right: inherit;
+  z-index: 999;
+  left: 75px;
+}
 }
