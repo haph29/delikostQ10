@@ -345,7 +345,7 @@ h3 {
   position: fixed;
   width: 400px;
   left: 30px;
-  top: 50%;
+  top: 70px;
   font-size: 14px;
 }
 
@@ -1002,5 +1002,11 @@ footer h2 {
 
   .alert h5 {
     font-size: 20px;
+  }
+  .fix_tel {
+    bottom: 30px;
+  }
+  .fix_zalo {
+    bottom: 111px;
   }
 }
