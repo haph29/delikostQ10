@@ -355,6 +355,15 @@ h3 {
   border-radius: 4px;
 }
 
+.alert-border img {
+  width: 60px !important;
+}
+
+.alert h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
 .hide {
   display: none;
   visibility: hidden;
@@ -949,10 +958,6 @@ footer h2 {
   align-items: center;
 }
 @media screen and (max-width: 991px) {
-  .alert {
-    width: 100%;
-    left: 0;
-  }
 
   h2.banner-h2 {
     margin-left: 0;
@@ -994,14 +999,12 @@ footer h2 {
 
   .alert {
     top: 56px;
+    width: 100%;
+    left: 0;
   }
 
   .alert img {
     width: 40px;
-  }
-
-  .alert h5 {
-    font-size: 20px;
   }
   .fix_tel {
     bottom: 30px;
