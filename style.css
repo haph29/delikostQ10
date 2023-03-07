@@ -957,6 +957,74 @@ footer h2 {
   display: flex;
   align-items: center;
 }
+
+/*  */
+.price {
+      text-decoration-line: line-through;
+    -webkit-text-decoration-line: line-through;
+    color: rgb(232, 58, 48);
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.6;
+    border-left: 3px solid gainsboro;
+    padding-left: 10px;
+}
+.price-sale {
+  color: rgb(22, 199, 46);
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.1;
+    border-left: 3px solid gainsboro;
+    padding-left: 10px;
+}
+.save {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.6;
+    border-left: 3px solid gainsboro;
+    padding-left: 10px;
+}
+.heading-sale {
+  font-size: 48px;
+    background: -webkit-linear-gradient(180deg, rgba(247, 175, 5, 1), rgba(207, 10, 2, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+.fix_sale {
+  position: absolute;
+  top: 0;
+  right: 30%;
+  z-index: 999;
+}
+.sale-number {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.sale-number p {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  text-align: center;
+  line-height: 1.6;
+  width: 100%;
+}
+.sale-number span {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.6;
+}
 @media screen and (max-width: 991px) {
 
   h2.banner-h2 {
