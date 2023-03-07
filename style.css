@@ -991,6 +991,7 @@ footer h2 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
+  width: 410px;
 }
 .fix_sale {
   position: absolute;
